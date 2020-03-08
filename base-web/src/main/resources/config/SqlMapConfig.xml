@@ -6,7 +6,11 @@
 	<typeAliases>
 		<package name="com.yx.entity" />
 	</typeAliases>
-<mappers>
-	<!-- <mapper resource="com/yx/mapper/*.xml"/>  -->
-</mappers>
+	<plugins>
+		<plugin interceptor="com.github.pagehelper.PageInterceptor">
+		</plugin>
+	</plugins>
+	<mappers>
+		<!-- <mapper resource="com/yx/mapper/*.xml"/> -->
+	</mappers>
 </configuration>
