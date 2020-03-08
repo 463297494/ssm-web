@@ -25,6 +25,7 @@
 		<fastjson.version>1.2.40</fastjson.version>
 		<jsckson.version>2.9.1</jsckson.version>
 		<logback.version>1.2.3</logback.version>
+		<pagehelper.version>5.1.2</pagehelper.version>
 	</properties>
 	<dependencyManagement>
 		<!-- 引入关联的jar包 -->
@@ -113,7 +114,11 @@
 				<artifactId>spring-data-redis</artifactId>
 				<version>${spring.redis.version}</version>
 			</dependency>
-
+			<dependency>
+				<groupId>com.github.pagehelper</groupId>
+				<artifactId>pagehelper</artifactId>
+				<version>${pagehelper.version}</version>
+			</dependency>
 			<!-- mybatis核心包 -->
 			<dependency>
 				<groupId>org.mybatis</groupId>
