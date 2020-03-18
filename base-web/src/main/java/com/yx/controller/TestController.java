@@ -23,7 +23,7 @@ public class TestController {
 	public String test(int stuno, String stuname, int stuage) {
 		Student student = new Student(stuno, stuname, stuage);
 		studentService.addStudent(student);
-		return "测试输出成功123111!";
+		return "测试输出成功5555!";
 	}
 
 	@RequestMapping(value = "/user", method = RequestMethod.GET)
