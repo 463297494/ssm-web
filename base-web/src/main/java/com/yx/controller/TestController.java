@@ -32,7 +32,7 @@ public class TestController {
 		// 跳转至成功页
 		mav.addObject("id", id);
 		mav.addObject("name", username);
-		mav.addObject("gender", "男");
+		mav.addObject("gender", "男123");
 		mav.setViewName("success");
 		return mav;
 	}
